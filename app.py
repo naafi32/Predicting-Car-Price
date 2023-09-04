@@ -1,4 +1,4 @@
-import sklearn
+# import sklearn
 import numpy as np
 import pickle as pkl
 import streamlit as st
