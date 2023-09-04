@@ -1,4 +1,8 @@
-# import sklearn
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import make_column_transformer
+from sklearn.pipeline import make_pipeline
 import numpy as np
 import pickle as pkl
 import streamlit as st
